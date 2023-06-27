@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:black;
+            font-family: 'Ysabeau SC', sans-serif;
+            color: black;
+            font-size: 25px;
+        }
+        .container{
+            max-width: 700px;
+            margin: auto;
+            background-color: #f0e68c	;
+            padding: 25px;
+            box-shadow: 15px 15px white;	
+        }
+        h1,.head{
+            font-size: 55px;
+            font-weight: 600;
+            margin: 0%;
+        }
+        .btn{
+            padding-right: 15px;
+            padding-left: 15px;
+            
+        }
+        .search input{
+            font-size: 20px;
+            background-color: #f0e68c;
+            border: none;
+            border-bottom: 2px solid;
+            padding-top: 25px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+            
+        {% endblock content %}
+    </div>
+</body>
+</html>
